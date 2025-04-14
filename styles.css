@@ -1,51 +1,89 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif; /* Modern font */
     margin: 0;
     padding: 0;
-    background-color: #f4f4f9;
-    color: #333;
+    background-color: #f9f9f9; /* Light neutral background */
+    color: #002147; /* QMUL dark blue for text */
 }
 
 h1 {
     text-align: center;
     margin: 20px 0;
-    color: #444;
+    font-size: 2.5rem;
+    color: #002147; /* QMUL dark blue */
+    letter-spacing: 1px;
 }
 
 .gallery {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid */
     gap: 20px;
     padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .photo-card {
-    background: #fff;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background: #ffffff; /* White background for contrast */
+    border: none;
+    border-radius: 12px; /* Softer corners */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1); /* Modern shadow */
     overflow: hidden;
-    transition: transform 0.3s, box-shadow 0.3s;
-    width: 300px;
-    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
 }
 
 .photo-card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+    transform: translateY(-8px); /* Subtle lift on hover */
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
 }
 
 .photo-card img {
     width: 100%;
     height: auto;
     display: block;
+    transition: transform 0.3s ease;
+}
+
+.photo-card:hover img {
+    transform: scale(1.05); /* Slight zoom on hover */
 }
 
 .description {
     padding: 15px;
-    font-size: 16px;
-    color: #666;
-    background-color: #f9f9f9;
-    border-top: 1px solid #ddd;
+    font-size: 1rem;
+    color: #0056b3; /* QMUL blue for text */
+    background-color: #f0f8ff; /* Light blue background for descriptions */
+    border-top: 1px solid #e0e0e0; /* Subtle border */
+    text-align: left;
+    line-height: 1.6;
+}
+
+.description:hover {
+    color: #002147; /* Darker blue for hover effect */
+}
+
+/* Navigation Bar */
+.navbar {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #002147; /* QMUL dark blue */
+    padding: 10px 0;
+    margin: 0;
+}
+
+.navbar li {
+    margin: 0 15px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #ffffff; /* White text */
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #f0f8ff; /* Light blue on hover */
 }
