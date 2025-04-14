@@ -1,0 +1,46 @@
+[
+    {
+        "image_src": "pictures/bin_cardboard.jpg",
+        "alt": "Description of photo 1",
+        "description": "Another general waste bin and dry mixed recycling bin are located in the Engineering Building. The general waste bin has a cover, which may discourage students from lifting it due to hygiene concerns, potentially leading to improper disposal. A more sustainable option would be to replace this bin with the open-top design seen in the third image, making waste disposal easier and more efficient."
+    },
+    {
+        "image_src": "pictures/british_heart_donation.jpeg",
+        "alt": "Description of photo 2",
+        "description": "This evacuation chair is located on the Graduate Centre Ground Floor. An evacuation chair like this contributes to campus sustainability by enhancing social sustainability and emergency preparedness. It improves accessibility for all students, including those with mobility impairments, promoting equal opportunity and well-being. It also ensures that everyone can evacuate safely and efficiently during emergencies. To further improve its effectiveness, the university could organize awareness and training programs to educate staff and students on proper usage, ensuring its long-term sustainability in emergency situations."    },
+    {
+        "image_src": "pictures/evac_chair.png",
+        "alt": "Description of photo 3",
+        "description": "This setup near the geography buildings at Queen Mary reflects an effort to integrate greenery into urban spaces, contributing to sustainability in a small yet meaningful way. The use of hanging baskets and potted plants adds biodiversity to the built environment, improving air quality and providing a more pleasant atmosphere."
+    },
+    {
+        "image_src": "pictures/geography_plants.jpeg",
+        "alt": "Description of photo 4",
+        "description": "This setup near the geography buildings at Queen Mary reflects an effort to integrate greenery into urban spaces, contributing to sustainability in a small yet meaningful way. The use of hanging baskets and potted plants adds biodiversity to the built environment, improving air quality and providing a more pleasant atmosphere."
+    },
+    {
+        "image_src": "pictures/plants_roof.jpeg",
+        "alt": "Description of photo 5",
+        "description": "This is the description for photo 5."
+    },
+    {
+        "image_src": "pictures/plastic_bin.png",
+        "alt": "Description of photo 6",
+        "description": "This is the description for photo 6."
+    },
+    {
+        "image_src": "pictures/recycle_book.jpeg",
+        "alt": "Description of photo 7",
+        "description": "This is the description for photo 7."
+    },
+    {
+        "image_src": "pictures/space_near_geography.jpeg",
+        "alt": "Description of photo 8",
+        "description": "This is the description for photo 8."
+    },
+    {
+        "image_src": "pictures/water_fountain.jpg",
+        "alt": "Description of photo 9",
+        "description": "This is the description for photo 9."
+    }
+]
