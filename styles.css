@@ -4,6 +4,11 @@ body {
     padding: 0;
     background-color: #f9f9f9; /* Light neutral background */
     color: #002147; /* QMUL dark blue for text */
+    overflow-x: hidden; /* Disable horizontal scrolling */
+    line-height: 1.6; /* Improve readability */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Full height of the viewport */
 }
 
 h1 {
@@ -17,20 +22,25 @@ h1 {
 .gallery {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid */
-    gap: 20px;
-    padding: 20px;
-    max-width: 1200px;
-    margin: 0 auto;
+    gap: 20px; /* Space between items */
+    padding: 20px; /* Add padding for spacing */
+    max-width: 100%; /* Ensure the gallery doesn't exceed the viewport width */
+    margin: 0 auto; /* Center the gallery horizontally */
+    overflow-x: hidden; /* Prevent horizontal overflow */
 }
 
 .photo-card {
-    background: #ffffff; /* White background for contrast */
+    display: flex;
+    flex-direction: column; /* Stack content vertically */
+    justify-content: space-between; /* Ensure content fills the card */
+    background: #ffffff ; /* Subtle grey background */
     border: none;
     border-radius: 12px; /* Softer corners */
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1); /* Modern shadow */
     overflow: hidden;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     cursor: pointer;
+    height: 100%; /* Ensure consistent height */
 }
 
 .photo-card:hover {
@@ -39,28 +49,21 @@ h1 {
 }
 
 .photo-card img {
-    width: 100%;
-    height: auto;
-    display: block;
-    transition: transform 0.3s ease;
+    width: 100%; /* Make the image fill the width of its container */
+    height: 400px; /* Set a fixed height for all images */
+    object-fit: cover; /* Crop the image to fit the container */
+    display: block; /* Remove any inline spacing issues */
+    transition: transform 0.3s ease; /* Keep the hover effect */
 }
 
-.photo-card:hover img {
-    transform: scale(1.05); /* Slight zoom on hover */
-}
 
 .description {
-    padding: 15px;
-    font-size: 1rem;
-    color: #0056b3; /* QMUL blue for text */
-    background-color: #f0f8ff; /* Light blue background for descriptions */
-    border-top: 1px solid #e0e0e0; /* Subtle border */
-    text-align: left;
-    line-height: 1.6;
-}
-
-.description:hover {
-    color: #002147; /* Darker blue for hover effect */
+    flex-grow: 1; /* Ensure the description fills available space */
+    padding: 10px; /* Add padding for spacing */
+    background-color: #f5f5f5; /* Light background for the description */
+    text-align: center; /* Center-align the text */
+    font-size: 1rem; /* Adjust font size */
+    color: #002147; /* QMUL dark blue */
 }
 
 /* Modern Navbar Styling */
@@ -71,9 +74,10 @@ h1 {
     align-items: center;
     background-color: #002147; /* QMUL dark blue */
     padding: 15px 20px; /* Add padding for a modern look */
-    margin: 0;
+    margin: 0; /* Remove any default margin */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
     border-radius: 0 0 12px 12px; /* Rounded bottom corners */
+    box-sizing: border-box; /* Ensure padding is included in width/height calculations */
 }
 
 .navbar li {
@@ -105,34 +109,21 @@ h1 {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Reduced shadow on click */
 }
 
-/* Responsive Navbar for Mobile */
-@media (max-width: 768px) {
-    .navbar {
-        flex-direction: column; /* Stack links vertically */
-        padding: 10px; /* Adjust padding for smaller screens */
-    }
-
-    .navbar li {
-        margin: 10px 0; /* Add spacing between links */
-    }
-
-    .navbar a {
-        font-size: 1rem; /* Slightly smaller text for mobile */
-        width: 100%; /* Make links full-width */
-        text-align: center; /* Center-align text */
-    }
-}
-
 /* General Form Styling */
 form {
-    max-width: 800px;
-    margin: 20px auto;
-    padding: 20px;
+    max-width: 800px; /* Limit the width of the form */
+    margin: 20px auto; /* Center horizontally and add 20px vertical margin */
+    padding: 20px 15px; /* Add 15px left and right padding */
     background-color: #f9f9f9; /* Light background */
     border: 1px solid #ddd;
     border-radius: 12px; /* Rounded corners */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
     font-family: 'Roboto', sans-serif; /* Modern font */
+    box-sizing: border-box; /* Ensure padding is included in width calculations */
+}
+
+.survey-form {
+    padding: 5px;
 }
 
 /* Fieldset Styling */
@@ -327,8 +318,40 @@ button:active {
         max-width: 150px; /* Reduce image size for mobile */
     }
 
-    /* General Body Padding */
-    body {
-        padding: 10px; /* Add padding to prevent content from touching edges */
+    .gallery {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Adjust column size for smaller screens */
+        padding: 10px; /* Reduce padding for smaller screens */
     }
+}
+
+.footer {
+    margin-top: auto; /* Automatically push the footer to the bottom */
+    background-color: #002147; /* QMUL dark blue */
+    color: #ffffff; /* White text */
+    text-align: center; /* Center-align the text */
+    padding: 10px 20px; /* Add padding for spacing */
+    font-size: 0.9rem; /* Slightly smaller font size */
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center-align items horizontally */
+    gap: 10px; /* Add spacing between the logo and text */
+    max-width: 1200px; /* Limit the footer width */
+    margin: 0 auto; /* Center the footer content */
+    text-align: center; /* Center-align the text */
+}
+
+.footer-text {
+    text-align: center; /* Center-align the text */
+}
+.footer-logo {
+    height: 50px; /* Set a fixed height for the logo */
+    width: auto; /* Maintain aspect ratio */
+}
+
+
+.footer p {
+    margin: 5px 0; /* Add spacing between paragraphs */
 }
