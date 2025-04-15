@@ -207,3 +207,103 @@ button:active {
 .intro-text p strong {
     color: #d9534f; /* Highlight the note in red */
 }
+
+/* Image Button Styling */
+.image-button {
+    display: block;
+    max-width: 250px; /* Set a maximum width for the images */
+    height: auto; /* Maintain aspect ratio */
+    margin: 10px auto; /* Center the images */
+    border-radius: 8px; /* Optional: Rounded corners for a modern look */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    cursor: pointer;
+}
+
+.image-button:hover {
+    transform: translateY(-2px); /* Slight lift on hover */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); /* Enhanced shadow */
+}
+
+.image-button:active {
+    transform: translateY(0); /* Reset lift on click */
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2); /* Reduced shadow */
+}
+
+/* Image Container */
+.image-container {
+    position: relative;
+    display: block; /* Ensure it behaves like a block element */
+    max-width: 250px; /* Adjust the size of the container */
+    margin: 20px auto; /* Center the container horizontally */
+    text-align: center;
+    overflow: hidden; /* Ensure the blur effect doesn't overflow */
+    border-radius: 8px; /* Optional: Rounded corners */
+}
+
+/* Image Styling */
+.image-container img {
+    display: block;
+    width: 250px; /* Set a fixed width */
+    height: 150px; /* Set a fixed height */
+    object-fit: cover; /* Ensures the image scales and crops to fit the container */
+    opacity: 0.3; /* Slightly fade the image */
+    transition: transform 0.2s ease, box-shadow 0.2s ease, filter 0.3s ease, opacity 0.3s ease;
+}
+
+/* Text Overlay */
+.image-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff; /* White text */
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-color: rgba(0, 33, 71, 0.8); /* QMUL dark blue with transparency */
+    padding: 5px 10px;
+    border-radius: 8px;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6); /* Subtle shadow for readability */
+    pointer-events: none;
+    z-index: 1;
+}
+
+/* Hover Effects */
+.image-container:hover img {
+    transform: scale(1.05); /* Slight zoom on hover */
+    opacity: 0.9; /* Make the image slightly clearer on hover */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); /* Enhanced shadow */
+}
+
+/* Responsive Design for Mobile */
+@media (max-width: 768px) {
+    /* Adjust the navigation bar */
+    .navbar {
+        flex-direction: column; /* Stack links vertically */
+        align-items: center;
+    }
+
+    .navbar li {
+        margin: 10px 0; /* Add spacing between links */
+    }
+
+    /* Adjust heading and text */
+    .intro-text h1 {
+        font-size: 2rem; /* Smaller font size for headings */
+    }
+
+    .intro-text p {
+        font-size: 0.9rem; /* Slightly smaller text */
+        line-height: 1.4; /* Adjust line spacing */
+    }
+
+    /* Image Buttons */
+    .image-button {
+        max-width: 150px; /* Reduce image size for mobile */
+    }
+
+    /* General Body Padding */
+    body {
+        padding: 10px; /* Add padding to prevent content from touching edges */
+    }
+}
