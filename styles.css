@@ -119,14 +119,15 @@ legend {
 input[type="text"],
 input[type="email"],
 textarea {
-    width: 100%;
-    padding: 10px;
-    margin: 10px 0;
-    border: 1px solid #ccc;
-    border-radius: 8px;
+    width: 100%; /* Full width */
+    padding: 10px 15px; /* Add even padding on all sides */
+    margin: 10px 0; /* Add spacing between elements */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 8px; /* Rounded corners */
     font-size: 1rem;
     box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.05); /* Subtle inner shadow */
     transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    box-sizing: border-box; /* Ensure padding is included in width */
 }
 
 input[type="text"]:focus,
@@ -134,7 +135,7 @@ input[type="email"]:focus,
 textarea:focus {
     border-color: #0056b3; /* QMUL blue */
     box-shadow: 0 0 8px rgba(0, 86, 179, 0.3); /* Blue glow */
-    outline: none;
+    outline: none; /* Remove default outline */
 }
 
 /* Radio Buttons and Checkboxes */
