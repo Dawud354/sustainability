@@ -87,3 +87,122 @@ h1 {
 .navbar a:hover {
     color: #f0f8ff; /* Light blue on hover */
 }
+
+/* General Form Styling */
+form {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9; /* Light background */
+    border: 1px solid #ddd;
+    border-radius: 12px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    font-family: 'Roboto', sans-serif; /* Modern font */
+}
+
+/* Fieldset Styling */
+fieldset {
+    border: none;
+    margin-bottom: 20px;
+    padding: 0;
+}
+
+/* Legend Styling */
+legend {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #002147; /* QMUL dark blue */
+    margin-bottom: 10px;
+}
+
+/* Input and Textarea Styling */
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.05); /* Subtle inner shadow */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    border-color: #0056b3; /* QMUL blue */
+    box-shadow: 0 0 8px rgba(0, 86, 179, 0.3); /* Blue glow */
+    outline: none;
+}
+
+/* Radio Buttons and Checkboxes */
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 10px;
+    transform: scale(1.2); /* Slightly larger for better usability */
+}
+
+/* Labels */
+label {
+    font-size: 1rem;
+    color: #333;
+    display: block;
+    margin: 5px 0;
+}
+
+/* Submit Button */
+button {
+    background-color: #0056b3; /* QMUL blue */
+    color: #ffffff; /* White text */
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+button:hover {
+    background-color: #003d80; /* Darker QMUL blue */
+    transform: translateY(-2px); /* Slight lift */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); /* Enhanced shadow */
+}
+
+button:active {
+    background-color: #002147; /* Even darker blue */
+    transform: translateY(0); /* Reset lift */
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2); /* Reduced shadow */
+}
+
+/* Styling for the Introductory Text */
+.intro-text {
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center; /* Center-align the text */
+    background-color: #f9f9f9; /* Light background for contrast */
+    padding: 20px;
+    border-radius: 12px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    font-family: 'Roboto', sans-serif; /* Modern font */
+    color: #002147; /* QMUL dark blue */
+}
+
+.intro-text h1 {
+    font-size: 2.5rem; /* Larger font size for the heading */
+    margin-bottom: 10px;
+    color: #0056b3; /* QMUL blue */
+}
+
+.intro-text p {
+    font-size: 1rem;
+    line-height: 1.6; /* Improve readability */
+    margin: 10px 0;
+}
+
+.intro-text p strong {
+    color: #d9534f; /* Highlight the note in red */
+}
