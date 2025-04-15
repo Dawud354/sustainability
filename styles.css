@@ -63,29 +63,64 @@ h1 {
     color: #002147; /* Darker blue for hover effect */
 }
 
-/* Navigation Bar */
+/* Modern Navbar Styling */
 .navbar {
     list-style: none;
     display: flex;
     justify-content: center;
+    align-items: center;
     background-color: #002147; /* QMUL dark blue */
-    padding: 10px 0;
+    padding: 15px 20px; /* Add padding for a modern look */
     margin: 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    border-radius: 0 0 12px 12px; /* Rounded bottom corners */
 }
 
 .navbar li {
-    margin: 0 15px;
+    margin: 0 15px; /* Spacing between links */
 }
 
 .navbar a {
     text-decoration: none;
     color: #ffffff; /* White text */
-    font-size: 1.2rem;
-    transition: color 0.3s ease;
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 8px 16px; /* Slightly smaller padding for a subtle look */
+    border: 1px solid transparent; /* Transparent border for hover effect */
+    border-radius: 6px; /* Softer rounded corners */
+    background-color: #004080; /* Softer blue background */
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease, transform 0.2s ease;
 }
 
 .navbar a:hover {
-    color: #f0f8ff; /* Light blue on hover */
+    background-color: #002d5a; /* Slightly darker blue on hover */
+    color: #e0e0e0; /* Light grey text on hover */
+    border-color: #e0e0e0; /* Subtle border on hover */
+    transform: translateY(-1px); /* Slight lift on hover */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow on hover */
+}
+
+.navbar a:active {
+    transform: translateY(0); /* Reset lift on click */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Reduced shadow on click */
+}
+
+/* Responsive Navbar for Mobile */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column; /* Stack links vertically */
+        padding: 10px; /* Adjust padding for smaller screens */
+    }
+
+    .navbar li {
+        margin: 10px 0; /* Add spacing between links */
+    }
+
+    .navbar a {
+        font-size: 1rem; /* Slightly smaller text for mobile */
+        width: 100%; /* Make links full-width */
+        text-align: center; /* Center-align text */
+    }
 }
 
 /* General Form Styling */
@@ -277,16 +312,6 @@ button:active {
 
 /* Responsive Design for Mobile */
 @media (max-width: 768px) {
-    /* Adjust the navigation bar */
-    .navbar {
-        flex-direction: column; /* Stack links vertically */
-        align-items: center;
-    }
-
-    .navbar li {
-        margin: 10px 0; /* Add spacing between links */
-    }
-
     /* Adjust heading and text */
     .intro-text h1 {
         font-size: 2rem; /* Smaller font size for headings */
