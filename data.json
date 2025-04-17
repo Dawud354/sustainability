@@ -1,46 +1,148 @@
 [
     {
-        "image_src": "pictures/bin_cardboard.webp",
-        "alt": "Description of photo 1",
-        "description": "Another general waste bin and dry mixed recycling bin are located in the Engineering Building. The general waste bin has a cover, which may discourage students from lifting it due to hygiene concerns, potentially leading to improper disposal. A more sustainable option would be to replace this bin with the open-top design seen in the third image, making waste disposal easier and more efficient."
-    },
-    {
-        "image_src": "pictures/british_heart_donation.webp",
-        "alt": "Description of photo 2",
-        "description": "This evacuation chair is located on the Graduate Centre Ground Floor. An evacuation chair like this contributes to campus sustainability by enhancing social sustainability and emergency preparedness. It improves accessibility for all students, including those with mobility impairments, promoting equal opportunity and well-being. It also ensures that everyone can evacuate safely and efficiently during emergencies. To further improve its effectiveness, the university could organize awareness and training programs to educate staff and students on proper usage, ensuring its long-term sustainability in emergency situations."    },
-    {
-        "image_src": "pictures/evac_chair.webp",
-        "alt": "Description of photo 3",
-        "description": "This setup near the geography buildings at Queen Mary reflects an effort to integrate greenery into urban spaces, contributing to sustainability in a small yet meaningful way. The use of hanging baskets and potted plants adds biodiversity to the built environment, improving air quality and providing a more pleasant atmosphere."
-    },
-    {
         "image_src": "pictures/geography_plants.webp",
         "alt": "Description of photo 4",
-        "description": "This setup near the geography buildings at Queen Mary reflects an effort to integrate greenery into urban spaces, contributing to sustainability in a small yet meaningful way. The use of hanging baskets and potted plants adds biodiversity to the built environment, improving air quality and providing a more pleasant atmosphere."
+        "description": "This setup near the Geography buildings at Queen Mary integrates greenery into the campus, supporting sustainability in a small but impactful way. Hanging baskets and potted plants enhance biodiversity, improve air quality, and create a more welcoming atmosphere."    
     },
     {
         "image_src": "pictures/plants_roof.webp",
         "alt": "Description of photo 5",
-        "description": "More plants, more joy!! Small practices leads to better changes and the good habit of encouraging planting small plants on campus will lead to better lives and better focus for students in a learning environment. "
-    },
-    {
-        "image_src": "pictures/plastic_bin.webp",
-        "alt": "Description of photo 6",
-        "description": "This general waste bin and dry mixed recycling bin are located on the Graduate Centre Ground Floor. The open-top design makes disposal easy and convenient for users, unlike the covered bin in the fourth image, which may discourage proper use. A possible improvement would be to add a food waste bin nearby to encourage students to properly discard food scraps when bringing their own meals to campus (Graduate Centre)."
-    },
-    {
-        "image_src": "pictures/recycle_book.webp",
-        "alt": "Description of photo 7",
-        "description": "Expanding green initiatives, increasing the use of sustainable materials, and promoting eco-friendly practices across campus could make a greater impact. This image of the Better World Books donation bin at Queen Mary highlights the university’s commitment to sustainability and literacy. The initiative encourages book recycling, reducing waste, and promoting a circular economy where books are reused rather than discarded."
+        "description": "Adding more plants to the campus promotes a sense of joy and well-being. Small practices like adding more plants lead to positive environmental changes, improving focus and creating a healthier, more vibrant learning environment for students."
     },
     {
         "image_src": "pictures/space_near_geography.webp",
         "alt": "Description of photo 8",
-        "description": "Really appreciate this space provided by Queen Mary university as it encourages students to connect with nature and realise the healing power of nature. This space reminds me that we need to sit and think in order to have a sustainable future and have some personal time to get the answers to reduce stress and inhale oxygen."
+        "description": "This peaceful space at Queen Mary University encourages students to connect with nature. It serves as a reminder to take time for reflection, reduce stress, and recharge by simply sitting, breathing, and embracing the natural environment, an important step toward a sustainable future."
+    },
+    {
+        "image_src": "pictures/front_of_queen_building.webp",
+        "alt": "Description of photo 12",
+        "description": "Taken in front of the Queens Building, this image highlights the role of plants in promoting biodiversity and ecological conservation at QMUL. Through sustainable practices and new projects, the university is dedicated to protecting and enhancing the natural environment."
+    },
+    {
+        "image_src": "pictures/malta_main_entrance.webp",
+        "alt": "Description of photo 22",
+        "description": "This photo shows the small patch of soil outside the main entrance of the Malta campus. Green spaces are essential for creating a sustainable and welcoming environment by providing natural cooling, improving air quality, and supporting biodiversity. Since the campus was first established, students have consistently requested more plants or better use of the available soil. The challenge, however, may lie in Gozo’s dry summers and the fact that much of its native greenery is seasonal. But, adding a bench of flowers native to Malta, and a bench could improve the environment of that space. Since this is the main entrance, it looks unappealing, and the university should try to improve the appearance in a sustainable way. Example plants that can be added: Cistus (rock rose), Lavender, Olive tree."
+    },
+    {
+        "image_src": "pictures/coffee_cup_poster.webp",
+        "alt": "Description of photo 27",
+        "description": "This display shares impactful statistics with students, highlighting the benefits of switching to reusable cups. By quantifying the environmental impact, it encourages sustainable habits and includes a clear call to action. Strategically placed where students often consume drinks, this initiative could be even more effective if the message were displayed more widely throughout the space."
+    },
+    {
+        "image_src": "pictures/british_heart_donation.webp",
+        "alt": "Description of photo 2",
+        "description": "This British Heart Foundation donation point at Queen Mary reflects the university’s commitment to sustainability and social responsibility. Donated items help fund life-saving heart research while also promoting reuse and providing affordable second-hand goods to the community."
+    },
+    {
+        "image_src": "pictures/recycle_book.webp",
+        "alt": "Description of photo 7",
+        "description": "The Better World Books donation bin at Queen Mary highlights the university’s dedication to sustainability and literacy. By encouraging book recycling, the initiative reduces waste and supports a circular economy where books are reused, not discarded.\nExpanding initiatives like this, along with greater use of sustainable materials and eco-friendly practices, can further strengthen sustainability across campus."
+    },
+    {
+        "image_src": "pictures/battery_recycling.webp",
+        "alt": "Description of photo 10",
+        "description": "This battery recycling station in library highlights the importance of proper disposal to prevent harmful heavy metals from contaminating the environment. By recycling batteries (excluding car batteries) and using rechargeable options, we can reduce landfill waste and support sustainability on campus."
+    },
+    {
+        "image_src": "pictures/malta_battery_recycling.webp",
+        "alt": "Description of photo 18",
+        "description": "This image highlights that sustainability isn't just about reducing waste, it's also about resource sharing and supporting the community. Since batteries often come in large packs, this collection bin is a thoughtful initiative that ensures care homes have the supplies they need while reducing unnecessary purchases. Small actions like this demonstrate how sustainability and social responsibility go hand in hand, benefiting both the environment and the community. However, there is little to none information available on how to use this and how students can benefit from this. A poster or pamphlets explaining the purpose of this bin would be really helpful. (Malta campus)"
+    },
+    {
+        "image_src": "pictures/battery_recycling_long.webp",
+        "alt": "Description of photo 24",
+        "description": "Battery recycling bins provide a safe way for people to dispose of used batteries, preventing them from ending up in general waste where they could pose environmental and safety risks. These bins ensure batteries are handled and recycled properly, supporting safer and more sustainable waste management."
+    },
+    {
+        "image_src": "pictures/bin_cardboard_plastic.webp",
+        "alt": "Description of photo 1",
+        "description": "This general waste and dry mixed recycling bin set is located in the Engineering Building. The covered general waste bin may discourage proper use due to hygiene concerns, leading to improper disposal.\nReplacing it with an open-top design, like the one in the Graduate Centre, could improve ease of use and encourage more sustainable waste practices."
+    },
+    {
+        "image_src": "pictures/plastic_bin.webp",
+        "alt": "Description of photo 6",
+        "description": "Located on the Graduate Centre ground floor, these general waste and dry mixed recycling bins feature an open-top design that makes disposal easy and user-friendly, unlike covered bins that may discourage proper use.\nTo further promote responsible waste separation, adding a food waste bin nearby could encourage students to properly dispose off food scraps when bringing meals to campus."
+    },
+    {
+        "image_src": "pictures/malta_cafeteria.webp",
+        "alt": "Description of photo 17",
+        "description": "Taken in the cafeteria at the Malta campus in Gozo, this photo highlights the university's commitment to sustainability with separated waste bins, including a specific bin for compostable food waste. While student isn’t sure about the university's waste management behind the scenes, it’s clear that they are taking steps to encourage proper disposal. On the rest of the island, waste sorting typically happens on specific days, and we hope the university is maintaining the integrity of the sorted waste, especially considering that the culture of recycling and sustainability is still growing in Gozo."
+    },
+    {
+        "image_src": "pictures/carboard_bin.webp",
+        "alt": "Description of photo 28",
+        "description": "These bins are dedicated to recyclable materials, with signage that clearly shows how the disposed items will be reused. This encourages students to make conscious decisions when discarding waste. However, providing more transparency on how the waste is collected and processed would strengthen trust and further promote responsible recycling practices."
+    },
+    {
+        "image_src": "pictures/plastic_bin_black.webp",
+        "alt": "Description of photo 29",
+        "description": "Separate bins are provided for non-recyclable materials, along with detailed lists of what can and cannot be discarded. This clear guidance helps reduce confusion and minimises the chances of incorrect disposal. However, to further improve the system, it should be clearly indicated that there are separate bins specifically for recyclable materials as well."
+    },
+    {
+        "image_src": "pictures/bins_behind_geography.webp",
+        "alt": "Description of photo 14",
+        "description": "Located behind the Geography building, this image highlights the importance of waste segregation, featuring bins for dry recyclables and non-recyclables. Proper waste management helps reduce landfill waste and supports recycling efforts for a more sustainable future."
+    },
+    {
+        "image_src": "pictures/sustainable_lecture_poster.webp",
+        "alt": "Description of photo 25",
+        "description": "This poster, displayed at the Holborn CCLS campus, promotes a lecture on energy and climate change law. It highlights how academic fields like law can be used to educate students about climate issues and inspire them to pursue careers that contribute to sustainability. Hosting such lectures is vital in building climate-aware graduates who can drive change and help shape a more sustainable future."
     },
     {
         "image_src": "pictures/water_fountain.webp",
         "alt": "Description of photo 9",
-        "description": "This water fountain is located on the engineering building ground floor. This water fountain helps reduce plastic waste and conserve resources by encouraging students to refill reusable bottles instead of buying single-use plastic ones. However, hygiene concerns may arise, as some students might still drink directly from the fountain despite the sign stating it is for refilling bottles only. This could lead to potential contamination, discouraging students from using the refill station. I recommend replacing it with a more user-friendly design, such as a touchless water refill stations, to improve hygiene and encourage sustainable water consumption."
+        "description": "Located on the Engineering Building's ground floor, this refill station encourages students to use reusable bottles, helping reduce plastic waste. However, some still drink directly from it despite signage, raising hygiene concerns and discouraging use.\nWe recommend replacing it with a touchless refill station to improve hygiene and further support sustainable habits on campus."
+    },
+    {
+        "image_src": "pictures/bike_rack.webp",
+        "alt": "Description of photo 11",
+        "description": "This image highlights the new cycle pods and shelters at QMUL, promoting sustainable transportation for students and staff. By providing secure storage for bicycles, the initiative encourages eco-friendly commuting and aligns with the university’s commitment to sustainability."
+    },
+    {
+        "image_src": "pictures/SU_bike_park.webp",
+        "alt": "Description of photo 23",
+        "description": "The cycle parking provided in and around campus offers a secure place for students and staff to store their bikes, encouraging cycling as an environmentally friendly mode of transport. This supports sustainable travel and helps reduce the campus’s overall carbon footprint."
+    },
+    {
+        "image_src": "pictures/SU_sliding_doors.webp",
+        "alt": "Description of photo 21",
+        "description": "Automatic sliding doors are available in various buildings, offering convenience for those with accessibility needs. However, they consume a significant amount of energy. A more sustainable option could be replacing them with revolving doors, like those in the Graduate Building, which also help with crowd management. Alternatively, manually operated doors could be installed with push-button mechanisms for accessibility, as seen in many other buildings."
+    },
+    {
+        "image_src": "pictures/SU_shelves.webp",
+        "alt": "Description of photo 19",
+        "description": "The plastic shelves could be replaced with more sustainable options, such as bamboo, in the future. This would help reduce plastic consumption and be better for the environment."
+    },
+    {
+        "image_src": "pictures/smoke_shelter.webp",
+        "alt": "Description of photo 13",
+        "description": "Located in front of Arts Two, this image emphasises the role of sustainable design in smoking shelters. It showcases efforts to minimise environmental impact through the use of eco-friendly materials and responsible waste management."
+    },
+    {
+        "image_src": "pictures/malta_motion_lights.webp",
+        "alt": "Description of photo 15",
+        "description": "Energy efficiency is a key part of sustainability, and motion-sensor lighting is an excellent way to reduce unnecessary electricity consumption. These lights ensure energy is used only when needed, helping to cut waste and lower the university’s carbon footprint. The university’s efforts to save electricity and promote sustainability is really appreciated. (Malta campus)"
+    },
+    {
+        "image_src": "pictures/malta_corridor.webp",
+        "alt": "Description of photo 16",
+        "description": "Taken in the corridor of the Malta campus, this image highlights how small choices, like energy-efficient LED lighting, can significantly reduce our carbon footprint. LEDs consume less energy and last much longer than traditional bulbs, making them a more sustainable option."
+    },
+    {
+        "image_src": "pictures/metal_bench.webp",
+        "alt": "Description of photo 20",
+        "description": "The metal benches and tables provided for seating could be replaced with wooden alternatives, as wood is a renewable and biodegradable material that can be a more environmentally friendly option."
+    },
+    {
+        "image_src": "pictures/QMUL_charging.webp",
+        "alt": "Description of photo 26",
+        "description": "These charging boxes, located on multiple floors of the campuses, support sustainability through fast-charging technology designed to use minimal energy. By reducing the need for individual chargers, often left switched on and wasting electricity, they help cut unnecessary energy use. Adding clear information on the boxes about their energy-efficient benefits could further encourage students to make use of them."
+    },
+    {
+        "image_src": "pictures/evac_chair.webp",
+        "alt": "Description of photo 3",
+        "description": "Located on the Graduate Centre ground floor, this evacuation chair enhances campus sustainability by promoting accessibility and emergency preparedness. It ensures all students, including those with mobility impairments, can evacuate safely during emergencies.\nTo maximise its impact, we recommend awareness and training programs for staff and students on its proper use, supporting long-term safety and inclusivity."
     }
+
 ]

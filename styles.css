@@ -349,6 +349,9 @@ button:active {
 .footer-logo {
     height: 50px; /* Set a fixed height for the logo */
     width: auto; /* Maintain aspect ratio */
+    padding: 10px; /* Add padding around the logo */
+    background-color: #ffffff; /* Add a white background */
+
 }
 
 
