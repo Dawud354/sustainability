@@ -4,6 +4,9 @@ title: Home
 ---
 
 # Welcome to the Sustainability Project
+
+<p>This was rendered on {{ site.time | date: "%Y-%m-%d %H:%M" }}</p>
+
 <div class="intro-text">
     <p>Explore our project by clicking the links below. View the photos captured by participants or check out the survey we distrbuted to students.</p>
 </div>
